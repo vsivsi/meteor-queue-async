@@ -1,0 +1,9 @@
+{
+  "name": "queue-async",
+  "description": "Package to wrap queue-async, a very lightweight async library",
+  "homepage": "https://github.com/vsivsi/meteor-queue-async",
+  "author": "Vaughn Iverson (https://github.com/vsivsi)",
+  "version": "0.0.1",
+  "git": "https://github.com/vsivsi/meteor-queue-async.git",
+  "packages" : {}
+}
