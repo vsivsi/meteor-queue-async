@@ -9,15 +9,13 @@ Quoting from the author:
 > Or, think of it as a version of TameJs that does not use code generation.
 
 ### How to install:
-1. make sure you have [meteorite](https://github.com/oortcloud/meteorite) installed
-    `$ npm install -g meteorite`
-2. inside your project, run:
-    `$ mrt add queue-async`
+1. inside your project, run:
+    `$ meteor add vsivsi:queue-async`
 
-`meteor-queue-async` has no dependencies on the client or server.
+`queue-async` has no dependencies on the client or server.
 
 ### In your Meteor project:
 
-Exposes the `queueAsync` object.
+Exposes the `QueueAsync` object.
 
 API documentation is available at the [queue-async page on github](https://github.com/mbostock/queue)

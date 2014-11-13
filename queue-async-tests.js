@@ -1,6 +1,6 @@
 
-Tinytest.add('queueAsync - Serial Test', function (test) {
-  var q = queueAsync(1);
+Tinytest.add('QueueAsync - Serial Test', function (test) {
+  var q = QueueAsync(1);
   var f = function (a, b, cb) { cb(null, a+b); };
 
   q.defer(f, 5, 7)
@@ -11,13 +11,13 @@ Tinytest.add('queueAsync - Serial Test', function (test) {
       test.equal(
         [r1, r2, r3, r4],
         [12, 4, 6, 14],
-        "queueAsync Serial Test Failed"
+        "QueueAsync Serial Test Failed"
       );
     });
 });
 
 Tinytest.add('queueAsync - Parallel Test', function (test) {
-  var q = queueAsync();
+  var q = QueueAsync();
   var f = function (a, b, cb) { cb(null, a+b); };
 
   q.defer(f, 5, 7)
@@ -28,7 +28,7 @@ Tinytest.add('queueAsync - Parallel Test', function (test) {
       test.equal(
         ra,
         [12, 4, 6, 14],
-        "queueAsync Parallel Test Failed"
+        "QueueAsync Parallel Test Failed"
       );
     });
 });
