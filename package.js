@@ -7,7 +7,7 @@
 Package.describe({
   summary: 'DEPRECATED for Meteor 1.3, use d3-queue npm package directly instead!',
   name: 'vsivsi:queue-async',
-  version: '1.0.7',
+  version: '1.0.7_1',
   git: 'https://github.com/vsivsi/meteor-queue-async.git'
 });
 

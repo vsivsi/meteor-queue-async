@@ -1,6 +1,6 @@
 ## meteor-queue-async
 
-**DEPRECATED!  This package is no longer necessary for Meteor 1.3 and above, and will no longer be maintained!**
+**DEPRECATED!  This package is no longer works or is necessary for Meteor 1.3 and above, and will no longer be maintained!**
 
 Beginning with Meteor 1.3, you can simply use the built-in npm support instead of using this package.
 
