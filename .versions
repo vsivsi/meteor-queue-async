@@ -22,7 +22,7 @@ html-tools@1.0.7
 htmljs@1.0.7
 id-map@1.0.5
 jquery@1.11.6
-local-test:vsivsi:queue-async@1.0.7_1
+local-test:vsivsi:queue-async@1.0.7_2
 logging@1.0.10
 meteor@1.1.12
 minimongo@1.0.12
@@ -44,6 +44,6 @@ tinytest@1.0.8
 tracker@1.0.11
 ui@1.0.9
 underscore@1.0.6
-vsivsi:queue-async@1.0.7_1
+vsivsi:queue-async@1.0.7_2
 webapp@1.2.6
 webapp-hashing@1.0.7
