@@ -1,13 +1,13 @@
 /***************************************************************************
-###     Copyright (C) 2014 by Vaughn Iverson
+###     Copyright (C) 2014-2016 by Vaughn Iverson
 ###     vsivsi:queue-async is free software released under the MIT/X11 license.
 ###     See included LICENSE file for details.
 ***************************************************************************/
 
 Package.describe({
-  summary: 'Package to wrap queue-async, a very lightweight async library',
+  summary: 'DEPRECATED for Meteor 1.3, use d3-queue npm package directly instead!',
   name: 'vsivsi:queue-async',
-  version: '1.0.7',
+  version: '1.0.7_1',
   git: 'https://github.com/vsivsi/meteor-queue-async.git'
 });
 

@@ -1,5 +1,19 @@
 ## meteor-queue-async
 
+**DEPRECATED!  This package is no longer necessary for Meteor 1.3 and above, and will no longer be maintained!**
+
+Beginning with Meteor 1.3, you can simply use the built-in npm support instead of using this package.
+
+`meteor npm install --save d3-queue`
+
+And then in your client and/or server code:
+
+`import { QueueAsync } from 'd3-queue';`
+
+The documentation below is for legacy purposes only!
+
+= = = = =
+
 A meteorite package for [Atmosphere](https://atmosphere.meteor.com), providing a wrapper for the [queue-async](https://github.com/mbostock/queue) library by [Mike Bostock](https://github.com/mbostock).
 
 Quoting from the author:
